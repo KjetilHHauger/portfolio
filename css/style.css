@@ -1,0 +1,168 @@
+:root {
+    --primary: #2F2C3F;
+    --secondary: #E5D1CD;
+
+}
+
+body {
+    /* background-color: var(--primary); */
+}
+
+.circle {
+    margin: 200px auto;  /* This centers the div horizontally */
+    position: relative;
+    width: 360px;  /* Adjust the width to include the maximum width of the content */
+    height: 300px; /* Adjust height to cover all transformed children */
+}
+
+
+.quarter-circle {
+    background: none;
+    border-top: 40px solid var(--secondary);
+    border-left: 40px solid var(--secondary);
+    border-radius: 150px 0 0 0;
+    width: 100px;
+    height: 100px;
+}
+
+.quarter-circle.left {
+    position: absolute;
+    top: 0;
+    left: 30px;  /* Adjusted to keep within the .circle container */
+}
+
+.quarter-circle.right {
+    transform: rotate(90deg);
+    position: absolute;
+    top: 0;
+    left: 180px;  /* Adjusted to keep within the .circle container */
+}
+
+.half-circle {
+    background: none;
+    border-top: 40px solid var(--secondary);
+    border-left: 40px solid var(--secondary);
+    border-right: 40px solid var(--secondary);
+    border-bottom: none;
+    border-radius: 150px 150px 0 0;
+    width: 210px; /* Adjust if necessary */
+    height: 100px;
+    position: absolute;
+    top: 150px; /* Adjusted for internal alignment */
+    left: 30px;  /* Center relative to the parent .circle */
+    transform: rotate(180deg);
+}
+
+
+.text {
+  position: absolute;
+  color: var(--primary);
+}
+
+.text-left {
+    top: 50px;
+    font-size: 2rem;
+}
+
+.text-left span {
+    display: inline-block;
+    position: relative;
+    transform-origin: 50px 50px; /* Adjust this based on your specific needs */
+    font-size: 2rem;
+    color: #2F2C3F;
+}
+
+.text-left span:nth-child(1) {
+    transform: rotate(-61deg);
+    top: -74px;
+    left: -11px;
+    }
+
+.text-left span:nth-child(2) {
+    transform: rotate(-53deg);
+    top: -88px;
+    left: -26px;
+    }
+
+.text-left span:nth-child(3) {
+    transform: rotate(-45deg);
+    top: -96px;
+    left: -36px;
+    }
+
+.text-left span:nth-child(4) {
+    transform: rotate(-35deg);
+    top: -100px;
+    left: -44px;
+    }
+
+.text-left span:nth-child(5) {
+    transform: rotate(-27deg);
+    top: -140px;
+    left: 52px;
+    }
+
+    .text-right {
+        top: 50px;
+        font-size: 2rem;
+    }
+    
+    .text-right span {
+        display: inline-block;
+        position: relative;
+        transform-origin: 50px 50px; /* Adjust this based on your specific needs */
+        font-size: 2rem;
+        color: #2F2C3F;
+    }
+    
+    .text-right span:nth-child(1) {
+        transform: rotate(-73deg);
+        top: -76px;
+        right: 21px;
+        }
+    
+    .text-right span:nth-child(2) {
+        transform: rotate(-64deg);
+        top: -85px;
+        left: -36px;
+        }
+    
+    .text-right span:nth-child(3) {
+        transform: rotate(-54deg);
+        top: -88px;
+        left: -44px;
+        }
+    
+    .text-right span:nth-child(4) {
+        transform: rotate(-45deg);
+        top: -94px;
+        left: -56px;
+        }
+    
+    .text-right span:nth-child(5) {
+        transform: rotate(-39deg);
+        top: -95px;
+        left: -65px;
+        }
+
+    .text-right span:nth-child(6) {
+        transform: rotate(-28deg);
+        top: -132px;
+        left: 35px;
+        }
+
+    .text-right span:nth-child(7) {
+        transform: rotate(-21deg);
+        top: -134px;
+        left: 28px;
+        }
+
+    .text-right span:nth-child(8) {
+        transform: rotate(-13deg);
+        top: -133px;
+        left: 23px;
+        }
+    
+
+
+
