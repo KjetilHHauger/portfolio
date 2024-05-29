@@ -1,49 +1,56 @@
 # Welcome to My Portfolio Site Repository
 
-Hello! I'm Kjetil, a Front-End Developer currently training at Noroff Vocational School in Oslo, Norway. This repository hosts the source code for my personal portfolio website, where I showcase my projects, skills, and the journey in front-end development.
+![Kjetil's Portfolio](/assets/images/readme/readme.png)
 
-## About Me
+Hello! I'm Kjetil, a budding Front-End Developer training at Noroff Vocational School in Oslo, Norway. This repository contains the source code for my personal portfolio website, designed to showcase my journey and projects in front-end development.
 
-With a background that spans kindergarten teaching, industrial mechanics, and even 3D and VFX, I bring a unique blend of creativity and technical expertise to web development. My focus is on creating responsive, accessible, and visually appealing websites.
+## Description
 
-## Technologies
+This portfolio site is a reflection of my skills and experiences as I transition from diverse fields like kindergarten teaching and industrial mechanics to the tech industry, focusing on web development.
 
-Here are some of the technologies I use:
+Key features of my portfolio include:
+- **About Me**: Learn more about my unique journey and professional background.
+- **Projects**: A showcase of various projects I've worked on, demonstrating my skills in HTML, CSS, JavaScript, and user interface design.
+- **Contact**: Information on how to connect with me for potential collaborations and opportunities.
+
+## Built With
+
+My portfolio utilizes the following technologies:
 
 - HTML5
 - CSS3
 - JavaScript
 - Figma (for UI/UX design)
 
-## Featured Projects
+## Getting Started
 
-Below are some highlights from my portfolio:
+### Installing
 
-1. **Brickify Blog Platform** - A detailed blog about LEGO sets, demonstrating my HTML, CSS, and JavaScript skills. [View Project](https://github.com/KjetilHHauger/FED1-EXAME-KJETIL-H-H)
-2. **Square Eyes** - A dynamic web application for movie enthusiasts, featuring a shopping cart and genre-based filtering. [View Project](https://github.com/KjetilHHauger/squareyes-js)
-3. **Science Museum for Kids** - An interactive educational site to engage children with science. [View Project](https://github.com/KjetilHHauger/science_museum)
+To view my portfolio locally, you can clone this repository and open the HTML files in your browser. Here's how to get started:
 
-## Learning Goals
+1. Clone the repo:
+    ```bash
+    git clone https://github.com/KjetilHHauger/portfolio.git
+2. No dependencies are needed to run as it's mostly HTML/CSS/JS, just open the index.html in your favorite browser.
 
-I am continuously working to improve my skills in:
+## Running
 
-- Advanced JavaScript techniques
-- Responsive web design with CSS3
-- Enhanced user interfaces using Figma
+Open the index.html file in a web browser of your choice to view the portfolio.
 
-## Connect With Me
+## Contributing
 
-I'm always open to discussing web development projects or potential collaborations. Feel free to reach out through:
+Interested in contributing to the portfolio? Great! Please feel free to fork the repository, make changes, and submit a pull request. I appreciate your suggestions and feedback!
 
-- **Portfolio**: [khh.one](khh.one) (work in progress)
-- **LinkedIn**: [[Take a look](https://www.linkedin.com/in/kjetil-harneshaug-hauger-00851084/)]
+## Contact
 
-## Pronunciation of My Name
+Connect with me through the following platforms:
 
-For those wondering, it's pronounced CHEH-til. You can also listen to this pronunciation [here on YouTube](https://www.youtube.com/watch?v=tQZBq3nZS_M).
+- **LinkedIn** - [[Take a look](https://www.linkedin.com/in/kjetil-harneshaug-hauger-00851084/)]
+- **Portfolio** - [khh.one](khh.one) Work in progress but feel free to visit.
 
-## Fun Fact
+## Acknowledgments
 
-I've explored various fields before diving into tech, from teaching young children to working in industrial settings, and dabbling in visual effects and 3D modeling.
+- A big thank you to the instructors and mentors at Noroff Vocational School for their continuous support.
+- Thanks to all my peers who have provided feedback and insights that immensely helped improve my projects.
 
-Thank you for stopping by my GitHub repository! Feel free to explore the code, suggest improvements, or get in touch for more information.
+Feel free to explore the repository and get in touch if you have any questions or if you would like to discuss potential projects!
