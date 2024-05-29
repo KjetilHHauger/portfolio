@@ -115,9 +115,10 @@ body h1 {
   perspective: 1000px;
 }
 
-.project-card:hover .project-card-inner {
-  transform: rotateY(180deg);
-}
+.project-card.is-flipped .project-card-inner {
+    transform: rotateY(180deg);
+  }
+  
 
 .project-card-inner {
   position: absolute;
@@ -211,7 +212,7 @@ body h1 {
   color: var(--primary);
 }
 
-.project-card:hover .project-card-text {
+.project-card.is-flipped .project-card-text {
   display: block;
 }
 
@@ -222,7 +223,7 @@ body h1 {
   z-index: 1;
 }
 
-.project-card-link:hover .project-card-front {
+.project-card.is-flipped .project-card-front {
   opacity: 0;
 }
 
