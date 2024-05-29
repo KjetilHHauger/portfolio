@@ -45,8 +45,8 @@ Interested in contributing to the portfolio? Great! Please feel free to fork the
 
 Connect with me through the following platforms:
 
-- **LinkedIn** - [[Take a look](https://www.linkedin.com/in/kjetil-harneshaug-hauger-00851084/)]
-- **Portfolio** - [khh.one](khh.one) Work in progress but feel free to visit.
+- **LinkedIn** - [Take a look](https://www.linkedin.com/in/kjetil-harneshaug-hauger-00851084/)
+- **Portfolio** - [khh.one](https://khh-portfolio.netlify.app/) Work in progress but feel free to visit.
 
 ## Acknowledgments
 
