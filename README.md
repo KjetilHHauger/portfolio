@@ -36,7 +36,7 @@ I am continuously working to improve my skills in:
 I'm always open to discussing web development projects or potential collaborations. Feel free to reach out through:
 
 - **Portfolio**: [khh.one](khh.one) (work in progress)
-- **LinkedIn**: [[Insert your LinkedIn URL](https://www.linkedin.com/in/kjetil-harneshaug-hauger-00851084/)]
+- **LinkedIn**: [[Take a look](https://www.linkedin.com/in/kjetil-harneshaug-hauger-00851084/)]
 
 ## Pronunciation of My Name
 
