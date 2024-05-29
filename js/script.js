@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var buttonLeft = document.querySelector('.quarter-circle.left');
     var mainProject = document.querySelector('.main-project');
     var mainAbout = document.querySelector('.main-about');
+    const cards = document.querySelectorAll('.project-card');
 
     // Event listener for the right button
     buttonRight.addEventListener('click', function() {
@@ -24,4 +25,11 @@ document.addEventListener("DOMContentLoaded", function() {
             mainProject.style.display = 'none'; // Hide the other section
         }
     });
+
+    cards.forEach(card => {
+        card.addEventListener('click', function() {
+          // Toggle a class that performs the flip
+          card.classList.toggle('is-flipped');
+        });
+      });
 });
