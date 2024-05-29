@@ -1,28 +1,27 @@
-// script.js
-document.addEventListener('DOMContentLoaded', function() {
-    const canvas = document.getElementById('arcCanvas');
-    const ctx = canvas.getContext('2d');
-    const centerX = canvas.width / 2;
-    const centerY = canvas.height / 2;
-    const radius = 50; // Increased radius
-    const gap = 0.02; // Angular gap in radians
+document.addEventListener("DOMContentLoaded", function() {
+    // Get the buttons and the content sections to toggle
+    var buttonRight = document.querySelector('.quarter-circle.right');
+    var buttonLeft = document.querySelector('.quarter-circle.left');
+    var mainProject = document.querySelector('.main-project');
+    var mainAbout = document.querySelector('.main-about');
 
-    // Define colors and lineWidth
-    ctx.strokeStyle = '#4CAF50';
-    ctx.lineWidth = 20; // Increased line width
+    // Event listener for the right button
+    buttonRight.addEventListener('click', function() {
+        if (mainProject.style.display === 'flex') {
+            mainProject.style.display = 'none';
+        } else {
+            mainProject.style.display = 'flex'; // Show this section
+            mainAbout.style.display = 'none';   // Hide the other section
+        }
+    });
 
-    // Draw left quarter circle
-    ctx.beginPath();
-    ctx.arc(centerX, centerY, radius, Math.PI + gap, 1.5 * Math.PI - gap);
-    ctx.stroke();
-
-    // Draw right quarter circle
-    ctx.beginPath();
-    ctx.arc(centerX, centerY, radius, 1.5 * Math.PI + gap, 2 * Math.PI - gap);
-    ctx.stroke();
-
-    // Draw bottom semi-circle
-    ctx.beginPath();
-    ctx.arc(centerX, centerY, radius, 0 + gap, Math.PI - gap);
-    ctx.stroke();
+    // Event listener for the left button
+    buttonLeft.addEventListener('click', function() {
+        if (mainAbout.style.display === 'flex') {
+            mainAbout.style.display = 'none';
+        } else {
+            mainAbout.style.display = 'flex';   // Show this section
+            mainProject.style.display = 'none'; // Hide the other section
+        }
+    });
 });
