@@ -293,7 +293,7 @@ body h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: var(--primary);
 }
 
 .project-card-front-one {
@@ -322,7 +322,7 @@ body h1 {
 
 .project-card-back {
   transform: rotateY(180deg) translateZ(1px);
-  background-color: #2d2e87;
+  background-color: var(--secondary);
 }
 
 .project-card-right {
@@ -340,6 +340,7 @@ body h1 {
   top: 24px;
   display: none;
   margin: 0 16px 0 16px;
+  font-size: 1.2rem;
 }
 
 .project-card-text-links {
@@ -351,7 +352,7 @@ body h1 {
 
 .project-card-text-links a {
   text-decoration: none;
-  color: var(--secondary);
+  color: var(--primary);
 }
 
 .project-card:hover .project-card-text {
