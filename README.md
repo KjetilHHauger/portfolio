@@ -31,7 +31,7 @@ To view my portfolio locally, you can clone this repository and open the HTML fi
 1. Clone the repo:
     ```bash
     git clone https://github.com/KjetilHHauger/portfolio.git
-2. No dependencies are needed to run as it's mostly HTML/CSS/JS, just open the index.html in your favorite browser.
+2. Use a code editor and open index.html using liveserver in your favorite browser.
 
 ## Running
 
