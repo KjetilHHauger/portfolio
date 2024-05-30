@@ -264,3 +264,33 @@ body h1 {
 .main-about-signatur {
   margin-left: auto;
 }
+
+
+/* CONTACT */
+
+.main-contact {
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  color: var(--secondary);
+}
+
+.main-contact h2 {
+  font-size: 2rem;
+}
+
+.main-contact-socials {
+  display: flex;
+}
+
+.contact-linkedin {
+  height: 100px;
+  width: 100px;
+  position: relative;
+}
+
+.contact-linkedin svg {
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
