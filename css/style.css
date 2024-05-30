@@ -311,3 +311,9 @@ body h1 {
   top: 10px;
   left: 0;
 }
+
+@media only screen and (max-width: 400px) {
+  .project-card-text {
+    font-size: 1.1rem;
+  }
+}
