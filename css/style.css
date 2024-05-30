@@ -269,7 +269,7 @@ body h1 {
   font-size: 1.5rem;
 }
 
-.main-about p {
+.main-about p, .main-about ul{
   font-size: 1.2rem;
 }
 
