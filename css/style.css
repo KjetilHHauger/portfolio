@@ -140,6 +140,17 @@ body h1 {
   align-items: center;
 }
 
+.project-card-back h2 {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+.project-card-back p {
+  position: absolute;
+  top: 80px;
+}
+
 .project-card-front,
 .project-card-back,
 .project-card-right,
@@ -206,6 +217,7 @@ body h1 {
   display: flex;
   column-gap: 16px;
   bottom: 0;
+  font-size: 1.5rem;
 }
 
 .project-card-text-links a {
@@ -238,6 +250,10 @@ body h1 {
   margin-left: 24px;
   margin-right: 24px;
   padding-bottom: 40px;
+}
+
+.main-about h2 {
+  font-size: 2rem;
 }
 
 .main-about-list {
